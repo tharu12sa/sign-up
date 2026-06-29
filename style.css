@@ -1,6 +1,5 @@
 body{
     background-color: rgb(28, 1, 53);
-    margin: 0;
 }
 
 .titel{
@@ -15,9 +14,9 @@ body{
     color: aliceblue;
 }
 
- .inp{
+  .inp{
     margin-right: 50px;
-} 
+}  
 
 .row{
     display: flex;
