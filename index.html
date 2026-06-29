@@ -25,9 +25,9 @@
         <div class="row">
             <label class="lab" for>Gender:</label>
             <label class="lab" for>Male</label>
-            <input type="radio">
+            <input type="radio" name="gender">
             <label class="lab" for>Female</label>
-            <input type="radio">
+            <input type="radio" name="gender">
         </div>
         <br>
         <div class="row">
@@ -47,25 +47,32 @@
             </select>
         </div>
         <br>
-        <fieldset>
-            <legend class="lab" style="text-align: center;">Private Details</legend>
-            <label class="lab" for="">Phone-number:</label>
-            <input type="tel">
-            <br>
-            <br>
-            <label class="lab" for="">E-mail:</label>
-            <input type="email">
-            <br>
-            <br>
-            <label class="lab" for="">Address:</label>
-            <textarea rows="5" cols="22"></textarea>
-            <br>
-            <br>
-            <label class="lab" for="">Password:</label>
-            <input class="inp" type="password">
-            <label class="lab" for="">Confirm Password:</label>
-            <input type="password">
-        </fieldset>
-        
+        <div class="row">
+            <fieldset>
+                <legend class="lab" style="text-align: center;">Private
+                    Details</legend>
+                <label class="lab" for>Phone-number:</label>
+                <input type="tel">
+                <br>
+                <br>
+                <label class="lab" for>E-mail:</label>
+                <input type="email">
+                <br>
+                <br>
+                <label class="lab" for>Address:</label>
+                <textarea rows="5" cols="22"></textarea>
+                <br>
+                <br>
+                <label class="lab" for>Password:</label>
+                <input class="inp" type="password">
+                <label class="lab" for>Confirm Password:</label>
+                <input type="password">
+            </fieldset>
+        </div>
+        <div class="row">
+            <h6 class="lab"> <input type="checkbox">I Agree to the Terms of
+                use</h6>
+        </div>
+        <div> <input type="button" id="button" value="Submit"></div>
     </body>
 </html>
